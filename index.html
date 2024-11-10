@@ -6,17 +6,17 @@
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://kit.fontawesome.com/b50a8f7382.js" crossorigin="anonymous"></script>
+    <script type="module" src="index.js"></script>
   </head>
   <body>
     <div class="hero">
-      <nav>
+      <nav class="nav">
         <h2 class="logo">Portfo<span>lio</span></h2>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Contact us</a></li>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#content" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#service" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#contact-me" class="nav__link">Contact me</a></li>
           <li><a href="https://www.linkedin.com/in/lumkile-ndabeni-944446318/" target="blank" id="linkedin"><i class="fa-brands fa-linkedin"></i>
           <li><a href="https://github.com/" id="git" target="blank"><i class="fa-brands fa-git"></i>
           <li><a href="https://codepen.io/Lumkile-Ndabeni-the-flexboxer" target="blank" id="codepen"><i class="fa-brands fa-codepen"></i>
@@ -41,7 +41,7 @@
       
   <section class="about">
     <div class="main">
-      <img class="Photo-Two" src="IMG-20240517-WA0017.jpg">
+      <img class="Photo-Two" src="Images/IMG-20240517-WA0017.jpg">
         <div class="about-text">
           <h2><span>About</span> Me</h2>
           <h5> Developer <span>& Designer</span></h5>
@@ -55,25 +55,25 @@
       
     <div class="service">
       <div class="title">
-        <h2>My Service</h2>
+        <h2>My Work</h2>
       </div>
       
       <div class="box">
-        <div class="card">
+        <div class="card card__item">
             <a href="https://github.com/LumkileNdabeni/SDF_Portfolio_Piece_CS20240198_wfc2407_A_Lumkile-Ndabeni_SDF11" class="portfolio__item" target="_blank">
-                <img src="https://mail.google.com/mail/u/1?ui=2&ik=41a69fac5f&attid=0.1&permmsgid=msg-f:1805628913869592462&th=190ee1ee375f178e&view=att&disp=safe&realattid=f_lz2fkctv0" alt="" class="portfolio__img">
+                <img src="Images/SDF11 - Cache Bank.png">
             </a>
         </div>
         
-        <div class="card">
+        <div class="card card__item">
             <a href="https://github.com/LumkileNdabeni/JSL_Portfolio_Piece__CS20240198_wfc2407_A_Lumkile-Ndabeni_JSL11" class="portfolio__item" target="_blank">
-                <img src="https://mail.google.com/mail/u/1?ui=2&ik=41a69fac5f&attid=0.1&permmsgid=msg-f:1805628913869592462&th=190ee1ee375f178e&view=att&disp=safe&realattid=f_lz2fkctv0" alt="" class="portfolio__img">
+                <img src="Images/JSL11 - Agile Board.png">
             </a>
         </div>
         
-        <div class="card">
+        <div class="card card__item">
             <a href="https://github.com/LumkileNdabeni/Module_5_CS20240198_wfc2407_A_Lumkile-Ndabeni_JSL05" class="portfolio__item" target="_blank">
-                <img src="https://mail.google.com/mail/u/1?ui=2&ik=41a69fac5f&attid=0.1&permmsgid=msg-f:1805628913869592462&th=190ee1ee375f178e&view=att&disp=safe&realattid=f_lz2fkctv0" alt="" class="portfolio__img">
+                <img src="Images/JSL05 - Galaxy Playlist.png" alt="" class="portfolio__img">
             </a>
         </div>
       </div>
